@@ -15,12 +15,8 @@
 
 @property (nonatomic) NSDate *date;
 
-@property (nonatomic, readonly) UIView *circleView;
-@property (nonatomic, readonly) UIView *dotView;
 @property (nonatomic, readonly) UILabel *textLabel;
 
-@property (nonatomic) CGFloat circleRatio;
-@property (nonatomic) CGFloat dotRatio;
 
 @property (nonatomic) BOOL isFromAnotherMonth;
 
